@@ -5,7 +5,7 @@ Welcome to the Software Testing and Quality Assurance (INT3117-2) project reposi
 ## Subject Information
 - Subject ID: INT3117-2
 - Subject Name: Software Testing and Quality Assurance
-- Teacher: [Teacher Name]
+- Teacher: Nguyễn Thu Trang
 
 ## Getting Started
 
