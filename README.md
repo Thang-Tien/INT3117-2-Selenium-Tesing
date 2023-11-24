@@ -33,6 +33,12 @@ npx mocha --no-timeouts 'test/loginPageTests.js'
 
 This command will execute the test file `loginPageTests.js` using the Mocha test framework.
 
+To run the tests for the login page, execute the following command:
+```Javascript
+npx mocha --no-timeouts 'test/inventoryPageTests.js'
+```
+
+This command will execute the test file `inventoryPageTests.js` using the Mocha test framework.
 
 
 
