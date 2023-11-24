@@ -1,6 +1,6 @@
 # Software Testing and Quality Assurance (INT3117-2)
 
-Welcome to the Software Testing and Quality Assurance (INT3117-2) project repository! This repository contains tests for the login page and inventory page of the saucedemo.com website.
+Welcome to the Software Testing and Quality Assurance (INT3117-2) project repository! This repository contains tests for the login page and inventory page of the [a link](saucedemo.com) website.
 
 ## Subject Information
 - Subject ID: INT3117-2
