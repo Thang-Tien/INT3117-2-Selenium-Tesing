@@ -281,7 +281,7 @@ describe('Test#1 - Sample Test on saucedemo.com functionality', () => {
         }
         
         // checkout with premade user info and then verify user is in checkout overview
-        await inventoryPage.checkout("John", "Doe", "12345");
+        await inventoryPage.checkout("Thắng", "Tiến", "12345");
         const currentURL2 = await driver.getCurrentUrl();
         const expectedURL2 = 'https://www.saucedemo.com/checkout-step-two.html';
 
