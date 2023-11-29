@@ -289,7 +289,7 @@ describe('Sample Test on saucedemo.com login', () => {
             expect(errorMessage).to.equal('Epic sadface: Sorry, this user has been locked out.');
             logger.info(`Test#11 - PASSED`)
         } catch (error) {
-            logger.error(`Test#11 - FAILED: Expected error message: 'Epic sadface: Password is required' doesn't match currenet error message: ${errorMessage}`)
+            logger.error(`Test#11 - FAILED: Expected error message: 'Epic sadface: Sorry, this user has been locked out.' doesn't match currenet error message: ${errorMessage}`)
         }
     });
 
@@ -311,7 +311,7 @@ describe('Sample Test on saucedemo.com login', () => {
     });
 
     // Test#13- attempt login with the performance glitch user and correct password and verify behavior
-    it('should attempt login with the problem user username and correct password and verify behavior', async function () { //this.timeout gets an error when using arrow function, so it was replaced here
+    it('should attempt login with the performance glitch user username and correct password and verify behavior', async function () { 
 
         /* Default timeout is 2000ms, test needs more time to run since 
         this account has a performance glitch */
